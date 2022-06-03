@@ -5,26 +5,24 @@
       Sakae Higashi Fes 2022
     </h1>
   </header>
-  <div class="body">
-    <div class="">
-      
-    </div>
-  </div>
 </div>
 </template>
 
 <script>
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
 </script>
 
-<style>
-.all{
-  background-color: #E6E5DC;
-}
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
 .header{
   position: absolute;
   width: 100%;
-  height: min(11vh,11vw);
-  background-color: #E6E5DC;
-  color: white;
+  height: min(3vh,3vw);
+  color: black;
 }
 </style>
