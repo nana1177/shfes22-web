@@ -6,8 +6,7 @@
     </h1>
   </header>
   <div class="body">
-    <div class="">
-      
+    <div class="main-img">
     </div>
   </div>
 </div>
@@ -26,5 +25,14 @@
   height: min(11vh,11vw);
   background-color: #E6E5DC;
   color: white;
+  z-index: 1000;
+}
+.main-img{
+  background: url(~@/assets/school-building.jpg) top center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  overflow-y: scroll;
 }
 </style>
